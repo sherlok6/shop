@@ -29,7 +29,7 @@ ALLOWED_HOSTS = [
     'shop-test-9hqm.onrender.com'
 ]
 
-
+CSRF_TRUSTED_ORIGINS = ['https://shop-test-9hqm.onrender.com']
 # Application definition
 
 INSTALLED_APPS = [
